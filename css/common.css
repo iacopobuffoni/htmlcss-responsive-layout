@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azure: #0084fd;
+    --purple: #9792e4;
+    --white: #ffffff;
+    --lightblue: #b5ddff;
+    --sectionpad: 50px 0;
+    --darkgray: #333333;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding-right: 15px;
+}
+
+section {
+    padding: var(--sectionpad);
+}

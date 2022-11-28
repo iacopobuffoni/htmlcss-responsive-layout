@@ -1,0 +1,95 @@
+header {
+    background-color: var(--azure);
+}
+
+footer {
+    background-color: var(--darkgray);
+}
+
+.topbar {
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.topbar-links > li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+.topbar-links > li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.button {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 35px;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+
+#big {
+    width: 66%;
+}
+
+.card {
+    width: 32%;
+    height: 150px;
+    background-color: var(--lightblue);
+    margin-bottom: 20px;
+}
+
+.card-left {
+    width: 55%;
+    height: 100%;
+}
+
+.card-right {
+    width: 45%;
+    height: 100%;
+}
+
+.purple {
+    background-color: var(--purple);
+}
+
+.container-less1 {
+    width: 50%;
+    margin: auto;
+    height: 500px;
+}
+
+.less-left, .less-right {
+    width: 50%;
+}
+
+.line {
+    padding: 15px;
+}
+
+.img-box {
+    width: 30%;
+    padding: 10px;
+}
+
+.img-box > img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.text-box {
+    width: 70%;
+}
+
+.container-less2 {
+    width: 40%;
+    margin: auto;
+    height: 500px;
+}
+
