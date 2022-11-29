@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    .container,
+    .topbar,
+    .container-less1,
+    .less-left,
+    .less-right {
+        width: 100%;
+    }
+
+    .card.bwhite {
+        width: 50%;
+    }
+
+    .container-less1 {
+        flex-wrap: wrap;
+    }
+
+    .topbar-links {
+        display: none;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container,
+    .topbar,
+    .container-less1,
+    .less-left,
+    .less-right,
+    .card,
+    .card-left,
+    card-right,
+    #big {
+        width: 100%;
+    }
+
+    .card.bwhite {
+        width: 100%;
+    }
+
+    .container-less1,
+    #big {
+        flex-wrap: wrap;
+    }
+
+    .topbar-links {
+        display: none;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+}

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 :root {
     --azure: #0084fd;
     --purple: #9792e4;
@@ -11,6 +15,23 @@
     --lightblue: #b5ddff;
     --sectionpad: 50px 0;
     --darkgray: #333333;
+    --divpad: 30px 20px;
+}
+
+.white {
+    color: white;
+}
+
+.bwhite {
+    background-color: white;
+}
+
+.black {
+    color: black;
+}
+
+img {
+    width: 100%;
 }
 
 .flexbox {
@@ -29,4 +50,8 @@
 
 section {
     padding: var(--sectionpad);
+}
+
+.center {
+    text-align: center;
 }

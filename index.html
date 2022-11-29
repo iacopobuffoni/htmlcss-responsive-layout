@@ -4,34 +4,42 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />        
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
         <title> Responsive Layout </title>
     </head>
     <body>
         <header>
             <nav class="topbar flexbox">
-                <div class="logo">
+                <div class="logo flexbox">
                     <img src="img/logo.png" alt="">
                 </div>
                 <div class="topbar-links">
                     <li>
-                        <a href="#"> link </a>
+                        <a href="#planning"> Planning </a>
                     </li>
                     <li>
-                        <a href="#"> link </a>
+                        <a href="#"> Testimonials </a>
                     </li>
                     <li>
-                        <a href="#"> link </a>
+                        <a href="#"> Features </a>
                     </li>
                     <li>
-                        <a href="#"> link </a>
+                        <a href="#"> About Us </a>
                     </li>
                     <li>
                         <div class="button">
-                            <a href="#"> Get Started </a>
+                            <a class="black" href="#"> Get Started </a>
                         </div>
                     </li>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
         </header>
@@ -41,41 +49,60 @@
                 <div class="container flexbox wrap">
                     <div class="card flexbox" id="big">
                         <div class="card-left">
-
+                            <h3> Get a demo application </h3>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquid a, recusandae deserunt sequi facere, dolor explicabo, saepe nesciunt quod perferendis et autem! Culpa, consequatur officiis suscipit sint vitae iusto. </p>
+                            <div class="button">
+                                <i class="fa-brands fa-apple"></i>
+                                App Store
+                            </div>
                         </div>
                         <div class="card-right">
-
+                            <img src="img/phone.png" alt="">
                         </div>
                     </div>
-                    <div class="card">
-
+                    <div class="card center">
+                        <i class="fa-solid fa-file-code"></i>
+                        <h3> Clean Code </h3>
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae porro temporibus eius voluptatum animi. At quas corrupti, quo, optio porro veniam exercitationem autem illo rerum debitis asperiores quasi fugit minus! </p>
                     </div>
-                    <div class="card">
-
+                    <div class="card center">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <h3> Web Design </h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque tempora eius a rem ipsa, nesciunt ducimus corporis, quibusdam officia eos odio repellendus officiis nihil? Assumenda distinctio quidem doloribus modi. </p>
                     </div>
-                    <div class="card">
-
+                    <div class="card center">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3> Development </h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sed ab atque repellendus ipsum ratione hic voluptate dolorem assumenda aliquam. Rem animi reiciendis iusto deleniti tempora est distinctio, corporis doloremque! </p>
                     </div>
-                    <div class="card">
-
+                    <div class="card center">
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <h3> Branding </h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit incidunt velit molestias necessitatibus alias, quasi accusantium, rem ad commodi aperiam adipisci temporibus ab eveniet nobis quos, laboriosam vitae atque aliquid? </p>
                     </div>
                 </div>
             </section>
             <!-- FINE PRIMA SEZIONE -->
             <!-- INIZIO SECONDA SEZIONE-->
-            <section class="purple">
+            <section class="purple" id="planning">
                 <div class="container-less1 flexbox">
                     <div class="less-left">
-                        <div>
-
+                        <div class="img-less-left">
+                            <img src="img/planning1.png" alt="">
                         </div>
-                        <div>
-
+                        <div class="text-less-left white">
+                            <h2> Strategic Planning </h2>
+                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt veniam delectus velit corrupti laudantium soluta accusamus perferendis at similique sapiente, nulla qui voluptas doloremque ducimus praesentium quod quibusdam voluptatum dolorem. </p>
                         </div>
                     </div>
                     <div class="less-right">
-                        <div>
-
+                        <div class="img-less-right">
+                            <img src="img/planning2.png" alt="">
+                            <h3> App Development </h3>
+                            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti ad ea corporis, ipsam totam veniam. </p>
+                            <div class="button">
+                                <i class="fa-solid fa-arrow-down-long"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -85,30 +112,32 @@
             <section>
                 <div class="container">
                     <div class="line">
-                            title
+                        <h4> TESTIMONIALS </h4>
+                        <h1> We are committed expert partners </h1>
+                        <p> We place huge value on strong relationships and have seen the benefit they bring to our business. Customer feedback is vital in helping us to get it right. </p>
                     </div>
                     <div class="line flexbox">
                         <div class="img-box">
                             <img src="img/testimonial1.jpg" alt="">
                         </div>
                         <div class="text-box">
-                            aaaaaaaaaa
+                            <p> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quia perspiciatis cupiditate optio amet doloribus nobis tempore, dolorum itaque excepturi tenetur? Accusantium voluptatem non ipsum assumenda eaque omnis! Alias, veniam!" </p>
                         </div>
                     </div>
                     <div class="line flexbox">
                         <div class="img-box">
-                            <img src="img/testimonial1.jpg" alt="">
+                            <img src="img/testimonial2.jpg" alt="">
                         </div>
                         <div class="text-box">
-                            aaaaaaaaaa
+                            <p> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat deleniti, rerum perspiciatis incidunt fugit corrupti in tempora ducimus voluptatem suscipit culpa corporis ea veritatis animi quasi ex distinctio illo quibusdam." </p>
                         </div>
                     </div>
                     <div class="line flexbox">
                         <div class="img-box">
-                            <img src="img/testimonial1.jpg" alt="">
+                            <img src="img/testimonial3.jpg" alt="">
                         </div>
                         <div class="text-box">
-                            aaaaaaaaaa
+                            <p> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia mollitia dolorum et quis ullam eveniet, minus veniam corporis ea consequuntur, a quod nemo voluptas commodi sequi? Qui ullam assumenda quia." </p>
                         </div>
                     </div>
                 </div>
@@ -116,27 +145,45 @@
             <!-- FINE TERZA SEZIONE -->
             <!-- INIZIO QUARTA SEZIONE -->
             <section class="purple">
-                <div class="container">
-                        TITLE
+                <div class="container center title1">
+                    <h2> Benefits of working with us </h2>
                 </div>
-                <div class="container flexbox wrap">
-                    <div class="card">
-
+                <div class="container flexbox wrap ">
+                    <div class="card bwhite">
+                        <h2> 01 </h2>
+                        <h3> Hight Quality </h3>
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia commodi odit non blanditiis nemo. Sint accusamus cumque facere inventore explicabo vitae dolorem, aliquid eos maiores amet quasi obcaecati architecto nihil. </p>
+                        <div class="button"> more </div>
                     </div>
-                    <div class="card">
-
+                    <div class="card bwhite">
+                        <h2> 02 </h2>
+                        <h3> Creative Team </h3>
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia commodi odit non blanditiis nemo. Sint accusamus cumque facere inventore explicabo vitae dolorem, aliquid eos maiores amet quasi obcaecati architecto nihil. </p>
+                        <div class="button"> more </div>
                     </div>
-                    <div class="card">
-
+                    <div class="card bwhite">
+                        <h2> 03 </h2>
+                        <h3> Amazing Results </h3>
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia commodi odit non blanditiis nemo. Sint accusamus cumque facere inventore explicabo vitae dolorem, aliquid eos maiores amet quasi obcaecati architecto nihil. </p>
+                        <div class="button"> more </div>
                     </div>
-                    <div class="card">
-
+                    <div class="card bwhite">
+                        <h2> 04 </h2>
+                        <h3> Best Pricing </h3>
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia commodi odit non blanditiis nemo. Sint accusamus cumque facere inventore explicabo vitae dolorem, aliquid eos maiores amet quasi obcaecati architecto nihil. </p>
+                        <div class="button"> more </div>
                     </div>
-                    <div class="card">
-
+                    <div class="card bwhite">
+                        <h2> 05 </h2>
+                        <h3> Innovations </h3>
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia commodi odit non blanditiis nemo. Sint accusamus cumque facere inventore explicabo vitae dolorem, aliquid eos maiores amet quasi obcaecati architecto nihil. </p>
+                        <div class="button"> more </div>
                     </div>
-                    <div class="card">
-
+                    <div class="card bwhite">
+                        <h2> 06 </h2>
+                        <h3> 24/7 Support </h3>
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia commodi odit non blanditiis nemo. Sint accusamus cumque facere inventore explicabo vitae dolorem, aliquid eos maiores amet quasi obcaecati architecto nihil. </p>
+                        <div class="button"> more </div>
                     </div>
                 </div>
             </section>
@@ -144,11 +191,15 @@
             <!-- INIZIO QUINTA SEZIONE -->
             <section>
                 <div class="container flexbox">
-                    <div class="text-box">
-
+                    <div class="text-box1">
+                        <h2> About Us </h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque harum explicabo reprehenderit, porro ea animi pariatur ex laboriosam saepe placeat asperiores fuga est perferendis odio ducimus rem quisquam debitis. Eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, facere consequuntur corrupti illum sed quam commodi corporis possimus tempora incidunt asperiores vitae numquam ad hic sunt placeat deleniti suscipit quod. </p>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magni officiis neque alias sapiente eveniet sequi eos saepe iste cupiditate fugit ratione consequuntur consectetur aperiam incidunt et, eligendi placeat delectus. </p>
                     </div>
-                    <div class="img-box">
-
+                    <div class="img-box1">
+                        <img src="img/about.jpg" alt="">
+                        <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+                        <div class="button"> Find me on LinkedIn </div>
                     </div>
                 </div>
             </section>
@@ -156,14 +207,16 @@
             <!-- INIZIO SESTA SEZIONE -->
             <section class="purple">
                 <div class="container-less2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad facilis atque sunt mollitia, deleniti consequatur assumenda voluptatum commodi cum voluptates fugiat ipsa numquam quaerat possimus quod dolorum ab fugit porro. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni at pariatur, delectus rem odit, repellendus fugiat accusantium voluptatibus itaque corrupti obcaecati cumque iure illum. Tempore architecto aperiam iusto itaque illo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae reiciendis placeat nemo illo ullam consequatur expedita! Cupiditate porro expedita sequi qui aliquid recusandae quae voluptates et aut nesciunt! Nemo, ipsa?</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad facilis atque sunt mollitia, deleniti consequatur assumenda voluptatum commodi cum voluptates fugiat ipsa numquam quaerat possimus quod dolorum ab fugit porro. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni at pariatur, delectus rem odit, repellendus fugiat accusantium voluptatibus itaque corrupti obcaecati cumque iure illum. Tempore architecto aperiam iusto itaque illo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae reiciendis placeat nemo illo ullam consequatur expedita! Cupiditate porro expedita sequi qui aliquid recusandae quae voluptates et aut nesciunt! Nemo, ipsa? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, incidunt laborum! Neque, optio distinctio vitae impedit mollitia dolorum, animi magni autem ipsa, repudiandae aut omnis similique unde nihil laboriosam architecto. </p>
                 </div>
             </section>
             <!-- FINE SESTA SEZIONE -->
         </main>
         <footer>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloribus quod corrupti non praesentium cumque unde, dolorem consectetur mollitia iusto neque placeat sed repellat expedita quisquam nisi veritatis, dolores quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni ipsum necessitatibus omnis nisi soluta quaerat. Repudiandae nemo nihil earum hic rerum, ea quis recusandae odio neque, provident sequi tenetur.
-            </p>
+            <div class="container-less2">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloribus quod corrupti non praesentium cumque unde, dolorem consectetur mollitia iusto neque placeat sed repellat expedita quisquam nisi veritatis, dolores quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni ipsum necessitatibus omnis nisi soluta quaerat. Repudiandae nemo nihil earum hic rerum, ea quis recusandae odio neque, provident sequi tenetur.
+                </p>
+            </div>
         </footer>
     </body>
 </html>

@@ -1,5 +1,6 @@
 header {
     background-color: var(--azure);
+    font-size: 17px;
 }
 
 footer {
@@ -12,15 +13,28 @@ footer {
     justify-content: space-between;
 }
 
+.logo {
+    align-items: center;
+}
+
 .topbar-links > li {
     list-style: none;
     display: inline-block;
-    padding: 15px;
+    padding: 20px 10px;
 }
 
 .topbar-links > li a {
     text-decoration: none;
     color: var(--white);
+}
+
+.topbar-links > li a:hover {
+    text-decoration: underline;
+}
+
+.topbar-links > li a.black {
+    color: black;
+    text-decoration: none;
 }
 
 .button {
@@ -29,10 +43,30 @@ footer {
     border-radius: 35px;
 }
 
-.container {
-    justify-content: space-between;
+.hamburger {
+    color: white;
+    padding: 5px 10px;
+    display: none;
 }
 
+.container {
+    justify-content: space-between;
+    line-height: 30px;
+    width: 60%;
+}
+
+.container h3 {
+    color: var(--azure);
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.container p {
+    color: rgb(75, 75, 75);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 25px 0;
+}
 
 #big {
     width: 66%;
@@ -40,19 +74,34 @@ footer {
 
 .card {
     width: 32%;
-    height: 150px;
     background-color: var(--lightblue);
     margin-bottom: 20px;
+    padding: var(--divpad);
+    border-radius: 20px;
+}
+
+.card > i {
+    font-size: 80px;
+    color: var(--azure);
+    margin-bottom: 25px;
 }
 
 .card-left {
     width: 55%;
-    height: 100%;
+    padding: var(--divpad);
+}
+
+.card-left .button {
+    background-color: var(--azure);
+    padding: 5px 50px;
+    border-radius: 35px;
+    display: inline-block;
+    color: white;
 }
 
 .card-right {
     width: 45%;
-    height: 100%;
+    padding:  30px 5px 0 5px;
 }
 
 .purple {
@@ -62,7 +111,50 @@ footer {
 .container-less1 {
     width: 50%;
     margin: auto;
-    height: 500px;
+    line-height: 30px;
+}
+
+.container-less1 .less-left p {
+   padding: 50px 0 0 0;
+}
+
+.less-right {
+    position: relative;
+    margin-left: 30px;
+}
+
+.img-less-left {
+    padding: 30px;
+}
+
+.text-less-left {
+    margin-top: 100px;
+}
+
+.img-less-right {
+    padding: 30px 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.img-less-right .button {
+    background-color: var(--purple);
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+    
+
+.text-less-right {
+    
+}
+
+.container-less1 h2 {
+    font-size: 30px;
 }
 
 .less-left, .less-right {
@@ -73,13 +165,27 @@ footer {
     padding: 15px;
 }
 
+.line:first-of-type > * {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.line.flexbox {
+    background-color: var(--purple);
+    margin-top: 10px;
+}
+
+.line h1 {
+    color: var(--purple);
+    font-size: 40px;
+}
+
 .img-box {
     width: 30%;
     padding: 10px;
 }
 
 .img-box > img {
-    width: 100%;
     border-radius: 50%;
 }
 
@@ -87,9 +193,75 @@ footer {
     width: 70%;
 }
 
+.text-box p {
+    color: white;
+}
+
+.container.title1 h2 {
+    font-size: 40px;
+    color: var(--white);
+}
+
+.card.bwhite {
+    background-color: white;
+}
+
+.title1 {
+    margin-bottom: 50px;
+}
+
+.container.flexbox.wrap > .card.bwhite > h2 {
+    font-size: 60px;
+    color: var(--purple);
+}
+
+.container.flexbox.wrap > .card.bwhite > h3 {
+    color: var(--purple);
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.container.flexbox.wrap > .card.bwhite > .button {
+    background-color: var(--purple);
+    border-radius: 35px;
+    color: white;
+    display: inline-block;
+    padding: 5px 50px;
+}
+
+.text-box1 {
+    font-size: 40px;
+    color: var(--purple);
+    width: 80%;
+    padding: var(--divpad);
+}
+
+.img-box1 h3 {
+    color: var(--purple);
+}
+
+.img-box1 {
+    width: 30%;
+    padding: var(--divpad);
+    text-align: left;
+}
+
+.img-box1 img {
+    border-radius: 50%; 
+}
+
+.img-box1 .button {
+    background-color: var(--purple);
+    border-radius: 35px;
+    color: white;
+    display: inline-block;
+    padding: 5px 50px;
+}
+
 .container-less2 {
     width: 40%;
     margin: auto;
-    height: 500px;
+    text-align: center;
+    color: white;
 }
-
