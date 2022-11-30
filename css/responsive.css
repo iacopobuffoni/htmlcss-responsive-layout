@@ -3,7 +3,9 @@
     .topbar,
     .container-less1,
     .less-left,
-    .less-right {
+    .less-right,
+    .text-box1,
+    .img-box1  {
         width: 100%;
     }
 
@@ -11,7 +13,7 @@
         width: 50%;
     }
 
-    .container-less1 {
+    .container-less1, #aboutus > .container {
         flex-wrap: wrap;
     }
 
