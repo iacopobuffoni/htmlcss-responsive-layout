@@ -5,6 +5,9 @@ header {
 
 footer {
     background-color: var(--darkgray);
+    text-align: center;
+    color: white;
+    padding: 1.5rem;
 }
 
 .topbar {
@@ -188,6 +191,8 @@ footer {
 
 .img-box > img {
     border-radius: 50%;
+    width: 250px;
+    height: 250px;
 }
 
 .text-box {
@@ -265,4 +270,65 @@ footer {
     margin: auto;
     text-align: center;
     color: white;
+}
+
+.container-less2 h3 {
+    margin-bottom: 1.5rem;
+}
+
+.container-less2-container {
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container-less2-container span {
+    color: #fdc15f;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.container-less2-container .button {
+    color: var(--purple);
+    font-size: 1.1rem;
+    font-weight: 700;
+    align-self: center;
+    padding: 1.5em 4.5em;
+    text-decoration: none;
+}
+
+.container-less2-container ul {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+}
+
+.container-less2-container ul li {
+    margin-right: 1.5rem;
+}
+
+.container-less2-container ul li:first-child {
+    list-style: none;
+}
+
+.container-less2-container ul * {
+   color: white;
+   align-items: center;
+}
+
+
+footer .container-less2-container {
+    max-width: 400px;
+    gap: calc(2 * 1.5rem);
+    flex-direction: column;
+    margin: auto;
+}
+
+footer p {
+    line-height: unset;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: var(--purple);
 }
